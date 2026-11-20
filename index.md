@@ -24,6 +24,13 @@ Crée un compte gratuit sur [themoviedb.org](https://www.themoviedb.org), puis P
 **Où trouver la clé de Radarr ou Sonarr ?**
 Dans chacun : Settings › General › API Key.
 
+**Les sous-titres sont décalés.**
+Le fichier de sous-titres a sans doute été fait pour une autre version du film. Dans la lecture, ouvre Audio et sous-titres › Synchronisation :
+- si l'écart grandit au fil du film, choisis la vitesse « Fichier 23,976 → vidéo 25 i/s » (Arrfin le fait seul quand c'est certain) ;
+- si l'écart est constant, avance ou recule les sous-titres par pas de 0,5 s ou 5 s.
+
+Le réglage est mémorisé pour ce film. Pour éviter le problème à la source : dans Jellyfin, Tableau de bord › Bibliothèques › Sous-titres, coche « Ne télécharger que les sous-titres parfaitement adaptés ».
+
 **J'ai acheté Arrfin+ mais il est verrouillé.**
 Réglages › Arrfin+ › Restaurer mes achats, avec le même compte Apple que pour l'achat. Un achat débloque l'iPhone et l'Apple TV.
 
